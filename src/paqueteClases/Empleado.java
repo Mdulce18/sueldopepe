@@ -19,7 +19,9 @@ public class Empleado {
     }
 
     public double sueldo(){
-        return categoria.getSueldoneto()+bono.calculoBono(cantidadFaltas); //Llamo al metodo calculo bono del objeto bono asi que no importa el tipo de bono lo calculara
+        return categoria.getSueldoneto()+bono.calculoBono(cantidadFaltas);
+        //Llamo al metodo calculo bono del objeto bono asi que
+        // no importa el tipo de bono que le mande lo calculara el metodo
     }
 
 }
