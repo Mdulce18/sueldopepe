@@ -2,7 +2,7 @@ package paqueteClases;
 
 public class BonoNulo implements Bono {
     @Override
-    public boolean calculoBono(int cantidadFaltas) {
-        return false;
+    public double calculoBono(int cantidadFaltas) {
+        return 0;
     }
 }
